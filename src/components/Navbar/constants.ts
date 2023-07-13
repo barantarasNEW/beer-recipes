@@ -8,6 +8,6 @@ export type Link = {
 export const getLinks = (t: TFunction): Link[] => {
   return [
     { href: "/", name: t('navLinks.home')},
-    { href: "/test", name: t("navLinks.test")}
+    { href: "/recipes", name: t("navLinks.recipes")}
   ];
 };
