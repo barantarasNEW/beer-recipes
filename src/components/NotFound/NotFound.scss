@@ -1,0 +1,14 @@
+@import '../../styles/utils/mixins';
+
+.not-found {
+  @include positionCenter;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    text-decoration: underline;
+    color: blue;
+  }
+}
