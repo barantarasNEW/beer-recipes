@@ -1,0 +1,12 @@
+@import '../../styles/utils/mixins';
+
+.home {
+  &__title {
+    font-size: 30px;
+    @include positionCenter;
+
+    @include onTablet {
+      font-size: 50px;
+    }
+  }
+}
