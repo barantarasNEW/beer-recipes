@@ -1,0 +1,12 @@
+@import '../../styles/utils/mixins';
+
+.nets {
+  &__list {
+    @include flexLinks;
+    gap: 20px;
+  }
+
+  &__link {
+    @include flexCenter;
+  }
+}
