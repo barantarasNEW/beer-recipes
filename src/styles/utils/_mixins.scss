@@ -1,0 +1,29 @@
+@mixin onTablet {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin square($_size) {
+  width: $_size;
+  height: $_size;
+}
+
+@mixin positionCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexLinks {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
