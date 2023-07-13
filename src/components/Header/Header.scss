@@ -1,0 +1,40 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/mixins';
+
+.header {
+  padding: $headFootPadding;
+  border-bottom: 1px solid var(--mode-color);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @include onTablet {
+      display: block;
+    }
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__navbar {
+      display: none;
+  
+      @include onTablet {
+        display: block;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: center;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/mixins';
+
+.action-bar {
+  &__list {
+    @include flexLinks;
+    gap: 15px;
+  }
+
+  &__btn {
+    transition: transform $primaryDuration;
+
+    &:active {
+      transform: scale(1.2);
+    }
+  }
+}

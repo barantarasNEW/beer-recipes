@@ -1,0 +1,20 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/mixins';
+
+.navbar {
+  &__list {
+    @include flexLinks;
+  }
+
+  &__link {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 0;
+    text-transform: uppercase;
+    transition: transform $primaryDuration;
+
+    &.active {
+      transform: scale(1.3);
+    }
+  }
+}
