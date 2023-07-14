@@ -1,4 +1,5 @@
 import Logo from "../Logo/Logo";
+import MoveTop from "../MoveTop/MoveTop";
 import Nets from "../Nets/Nets";
 import './Footer.scss';
 
@@ -10,6 +11,8 @@ const Footer = () => {
           <Logo />
   
           <Nets />
+
+          <MoveTop />
         </div>
       </div>
     </footer>
