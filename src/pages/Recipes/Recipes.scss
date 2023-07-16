@@ -1,0 +1,33 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/mixins';
+
+.recipes {
+  position: relative;
+
+  &__remove {
+    position: absolute;
+    top: 0;
+    left: 30;
+    z-index: 3;
+    transition: transform $primaryDuration;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 220px;
+    gap: 35px;
+    justify-content: center;
+
+    @include onTablet {
+      grid-template-columns: repeat(2, 220px);
+    }
+
+    @include onDesktop {
+      grid-template-columns: repeat(3, 220px);
+    }
+  }
+}

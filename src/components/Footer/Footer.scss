@@ -2,7 +2,8 @@
 @import '../../styles/utils/mixins';
 
 .footer {
-  border-top: 1px solid var(--mode-color);
+  margin-top: 40px;
+  border-top: 1px solid $primaryColor;
   padding: $headFootPadding;
 
   &__wrapper {

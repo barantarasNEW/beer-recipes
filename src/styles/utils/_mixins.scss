@@ -4,6 +4,12 @@
   }
 }
 
+@mixin onDesktop {
+  @media (min-width: 1023px) {
+    @content;
+  }
+}
+
 @mixin square($_size) {
   width: $_size;
   height: $_size;

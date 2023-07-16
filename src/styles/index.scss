@@ -1,4 +1,5 @@
 @import './reset';
+@import './animation';
 
 @import './utils/vars';
 
@@ -17,6 +18,10 @@ body {
     color: var(--light-color);
     --mode-color: var(--light-color);
   }
+}
+
+body {
+  overflow-y: scroll;
 }
 
 #root {

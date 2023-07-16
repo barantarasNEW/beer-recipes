@@ -3,7 +3,8 @@
 
 .header {
   padding: $headFootPadding;
-  border-bottom: 1px solid var(--mode-color);
+  margin-bottom: 40px;
+  border-bottom: 1px solid $primaryColor;
 
   &__wrapper {
     display: flex;
