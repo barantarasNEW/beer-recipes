@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome!",
+  "seeRecipe": "See recipe",
+  "backToTop": "Back to top",
+  "somethingWentWrong": "Something went wrong!",
+  "404": "404 - Not found!",
+  "goHome": "Go home",
+  "navLinks": {
+    "home": "Home",
+    "recipes": "Recipes"
+  }
+}
